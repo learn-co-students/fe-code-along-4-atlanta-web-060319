@@ -9,6 +9,7 @@
   </head>
   <body>
     <header>
+      <div class="wrapper"
       <div id="logo">
         <h1>Exceptional</h1>
         <h2>Realty Group</h2>
@@ -18,6 +19,8 @@
       </nav>
     </header>
 
+    <div class="wrapper">
+    </div>
     <section id="featured-property">
       <figure>
         <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
@@ -38,8 +41,13 @@
         <figcaption>Exceptional Realty Group Promotional Video - Source: archive.org</figcaption>
       </figure>
     </section>
-
+    
+    <section id="news">
+      <h3>Company News</h3>
+      <p>Lorem</p>
+    </section>
     <section id="details">
+      <div class="wrapper"></div>
       <div>
         <h3>Contact</h3>
         <p>
@@ -79,3 +87,35 @@
 
   </body>
 </html>
+
+/*/////////LAYOUT/////////*/
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background: #eee;
+  }
+  
+  .col-l {
+  float: left;
+  width: 32%;
+  background: #ccc;
+  }
+  
+  .col-2 {
+  float: left;
+  width: 66%;
+  background: #ccc;
+  }
+  
+  .col-3 {
+  background: #ccc
+  }
+  
+  [class*="col-"] {
+    margin-left: 2%;
+  }
+  
+  .first {
+    margin-left: 0;
+  }
